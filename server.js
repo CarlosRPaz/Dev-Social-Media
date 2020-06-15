@@ -19,7 +19,4 @@ app.use("/api/posts", require("./routes/api/posts"));
 
 const PORT = process.env.PORT || 5000;
 
-// test 123fdsaadsfafsdtuytuytuytuytuytsadffdsafsdaasfdfsd
-//fdsafsdafasdfdsaasfd
-
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
